@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PersistentBottomBarScaffold extends StatefulWidget {
-  /// Pass the required items for the tabs and BottomNavigationBar
+  // Pass the required items for the tabs and BottomNavigationBar
   final List<PersistentTabItem> items;
 
   const PersistentBottomBarScaffold({super.key, required this.items});
