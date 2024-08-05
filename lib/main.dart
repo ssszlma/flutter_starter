@@ -1,12 +1,13 @@
-
 import 'package:flutter/material.dart';
-import 'Components/navbar.dart';
+import 'Components/navbar.dart'; // importing the navbar
+
+// importing the several tabs required
 import 'Pages/tab1.dart';
 import 'Pages/tab2.dart';
 import 'Pages/tab3.dart';
 import 'Pages/tab4.dart';
 
-
+// this function runs the actual app !
 void main() {
   runApp(const MyApp());
 }
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // Here we're building the navigation bar. Try changing these values to see what they do!
       home: PersistentBottomBarScaffold(
         items: [
           PersistentTabItem(
