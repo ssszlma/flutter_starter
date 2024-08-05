@@ -1,3 +1,3 @@
 # Flutter Starter Template
 
-A simple template with set up navigation, pages and components. Start developing on flutter today!
+A simple template with set up navigation, pages and components.
